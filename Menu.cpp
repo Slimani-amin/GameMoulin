@@ -111,7 +111,9 @@ void Menu::start() {
                         sound.play();
 
                         if (it->first == "Play") {
+
                             SetBackground("image/background/background2.jpg");
+
                         }
                         if (it->first == "Exit") {
                             window.close();
