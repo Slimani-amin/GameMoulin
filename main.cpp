@@ -2,7 +2,13 @@
 
 int main() {
 
-	VideoMode mode(800, 600);
+
+
+
+
+
+
+	/*VideoMode mode(800, 600);
 	Menu MenuGame(mode, "MOULIN");
 	MenuGame.SetSoundBouton("sound/effect/cliq.wav");
 	MenuGame.AjouterBouton("Play", "image/icon/bouton-start.png",315,100,0.3f,0.3f);
@@ -11,7 +17,7 @@ int main() {
 	MenuGame.SetBackground("image/background/background1.jpg");
 	MenuGame.SetIcon("image/icon/icons8-xbox-controller-48.png");
 	MenuGame.SetMusic("sound/music_background/music1.mp3");
-	MenuGame.start();
+	MenuGame.start();*/
 
 
 

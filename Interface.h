@@ -32,6 +32,7 @@ private:
 	map<string, Sprite> bouton;
 	Texture* BoutonTexture;
 	int NombreBouton;
+	Music music;
 	Image icon;
 
 
