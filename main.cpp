@@ -1,11 +1,15 @@
-#include "Menu.hpp"
+#include "Interface.h"
 
 int main() {
 
 
 
 
-
+	string mot = "amine";
+	cout << mot << endl;
+	string az;
+	az = mot;
+	cout << az << endl;
 
 
 	/*VideoMode mode(800, 600);

@@ -163,12 +163,14 @@ sfml-main.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bouton.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Interface.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bouton.h" />
     <ClInclude Include="Game.hpp" />
     <ClInclude Include="Interface.h" />
     <ClInclude Include="Menu.hpp" />
