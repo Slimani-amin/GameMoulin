@@ -168,12 +168,16 @@ sfml-main.lib;%(AdditionalDependencies)</AdditionalDependencies>
     <ClCompile Include="Interface.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Plateau.cpp" />
+    <ClCompile Include="Plateau_Dynamique.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bouton.h" />
     <ClInclude Include="Game.hpp" />
     <ClInclude Include="Interface.h" />
     <ClInclude Include="Menu.hpp" />
+    <ClInclude Include="Plateau.h" />
+    <ClInclude Include="Plateau_Dynamique.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

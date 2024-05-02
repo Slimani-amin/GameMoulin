@@ -2,6 +2,7 @@
 
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
+#include "Bouton.h"
 #include <iostream>
 #include <vector>
 #include <string>
@@ -18,7 +19,7 @@ class Interface
 	~Interface();
 
 	int AjouterBouton(String titre, string chemin_image, float posX, float posY, float height, float width);
-	int SetBackground(string chemin_background);
+	int SetBackground(string chemin_background); 
 	int SetMusic(String chemin_music);
 	int SetIcon(String chemin_icon);
 
@@ -29,7 +30,7 @@ private:
 	RenderWindow window;
 	Sprite backgroundSprite;
 	Texture backgroundTexture;
-	map<string, Sprite> bouton;
+	Bouton bouton[10];
 	Texture* BoutonTexture;
 	int NombreBouton;
 	Music music;

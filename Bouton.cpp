@@ -86,3 +86,6 @@ string Bouton::GetTitreImage()
 	return BoutonTitre;
 }
 
+void Bouton::SetPositionBouton(float PosX, float PosY) {
+	BoutonSprite.setPosition(PosX, PosY);
+}

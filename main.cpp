@@ -1,15 +1,25 @@
-#include "Interface.h"
+
+
+#include "Plateau.h"
+
+
+
+
+
+
+
+
+
+
 
 int main() {
 
 
 
 
-	string mot = "amine";
-	cout << mot << endl;
-	string az;
-	az = mot;
-	cout << az << endl;
+	Plateau A;
+	A.GenererSucesseur('X');
+	A.AfficherSucceseur();
 
 
 	/*VideoMode mode(800, 600);
